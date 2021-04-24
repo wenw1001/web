@@ -1,0 +1,106 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    background-color: rgb(133, 114, 96);
+}
+
+body{
+    font-size: 15px;
+    background-color: rgb(197, 186, 161);
+}
+
+h1,h2,h3{
+    font-family:Microsoft JhengHei;
+    color:rgb(104, 75, 23);
+}
+p,li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(73, 66, 59);
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+a{
+    color: rgb(26, 27, 34);
+}
+
+nav, article, aside, footer {
+    /* background-color: seashell; */
+    padding: 4%;
+}
+
+nav{
+    height: 50px;
+    /* background-color: rgb(100, 93, 82); */
+    display: flex;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display:flex;
+    height: 80px;
+    /* background-color: rgb(182, 177, 156); */
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+nav a{
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(31, 29, 27);
+    background-color: rgb(100, 93, 82);
+    border-radius: 10px;
+    padding: 15px;
+    /* justify-content: space-between; */
+}
+
+/* main layout */
+
+main{
+    display: flex;
+}
+
+article{
+    flex: 4;
+}
+
+aside{
+    flex: 1;
+    margin-left: 100px;
+    background-color: rgb(98, 111, 122);
+}
+
+aside li{
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 10px;
+}
